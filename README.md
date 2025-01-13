@@ -53,7 +53,8 @@ Attached to is set to Bridged Adapter. <br />
 Choose the correct network interface of your host machine (e.g., Ethernet or Wi-Fi). <br />
 This configuration allows the virtual machine to obtain an IP address on the same network as your host machine, enabling direct access. <br />
 <br />
-<img src="https://imgur.com/a/HXYdxso.png" height="80%" width="80%" alt=""/>
+![image](https://github.com/user-attachments/assets/1fe74df4-8fcd-40a6-aa73-26cec8dcf605)
+
 <br />
 <br />
 3. Start the Virtual Machine:
