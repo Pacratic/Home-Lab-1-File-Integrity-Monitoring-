@@ -31,3 +31,35 @@ Implementing FIM demonstrates a proactive approach to system security and regula
 
 <h2> Step 1: Install Wazuh </h2>
 For setting up your home lab, using the Wazuh OVA (Open Virtual Appliance) file is a straightforward and convenient option. The OVA file simplifies deployment by providing a pre-configured virtual machine image.<br />
+<br/>
+<br/>
+<h2>Step 2: Configure and Start Wazuh Virtual Machine in VirtualBox</h2>
+Once you have downloaded the Wazuh OVA file, follow these steps to set it up and ensure proper connectivity:<br />
+
+1. Import the OVA File:<br />
+<br />
+Open VirtualBox. <br />
+Go to File > Import Appliance. <br />
+Select the downloaded Wazuh OVA file and click Next. <br />
+Adjust the virtual machine settings as needed (e.g., memory or CPU allocation). <br />
+Click Import to complete the process. <br />
+<br />
+2. Set Network to Bridge Mode: <br />
+Select the imported Wazuh virtual machine in VirtualBox. <br />
+Click Settings > Network. <br />
+Under Adapter 1, ensure that: <br />
+Enable Network Adapter is checked. <br />
+Attached to is set to Bridged Adapter. <br />
+Choose the correct network interface of your host machine (e.g., Ethernet or Wi-Fi). <br />
+This configuration allows the virtual machine to obtain an IP address on the same network as your host machine, enabling direct access. <br />
+<br />
+
+<img src="https://imgur.com/a/1meDzwH" height="80%" width="80%" alt=/>
+<br />
+<br />
+3. Start the Virtual Machine:
+Click Start in VirtualBox to power on the Wazuh virtual machine.
+Once it boots up, you should see the IP address assigned to the virtual machine.
+4. Access from Host Machine:
+Open a web browser or terminal on your host machine.
+Use the IP address displayed in the virtual machine to access the Wazuh dashboard or services.
