@@ -21,3 +21,13 @@ Many regulatory standards, such as PCI DSS, HIPAA, and GDPR, mandate the use of 
 By monitoring changes made by internal users, FIM can detect potential insider threats, enabling organizations to respond quickly and effectively to suspicious activity.<br />
 
 Implementing FIM demonstrates a proactive approach to system security and regulatory compliance, making it a cornerstone of any robust cybersecurity strategy. <br />
+
+<h1> Requirements:</h1>
+
+ -Oracle VirtualBox Manager<br />
+ -Windows10 VM <br />
+ -Wazuh OVA File <br />
+<br />
+
+<h2> Step 1: Install Wazuh </h2>
+For setting up your home lab, using the Wazuh OVA (Open Virtual Appliance) file is a straightforward and convenient option. The OVA file simplifies deployment by providing a pre-configured virtual machine image.<br />
