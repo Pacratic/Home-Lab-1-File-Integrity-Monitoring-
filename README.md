@@ -33,8 +33,9 @@ Implementing FIM demonstrates a proactive approach to system security and regula
 For setting up your home lab, using the Wazuh OVA (Open Virtual Appliance) file is a straightforward and convenient option. The OVA file simplifies deployment by providing a pre-configured virtual machine image.<br />
 <br/>
 <br/>
-<h2>Step 2: Configure and Start Wazuh Virtual Machine in VirtualBox</h2>
+<h2>Step 2: Configure and Start Wazuh Virtual Machine in VirtualBox</h2> <br/>
 Once you have downloaded the Wazuh OVA file, follow these steps to set it up and ensure proper connectivity:<br />
+<br />
 
 1. Import the OVA File:<br />
 <br />
